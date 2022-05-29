@@ -136,10 +136,10 @@ while run:
            window.blit(win, (200, 200))
  
        #пишем текст на экране
-       text = font2.render("Счет: " + str(score), 1, (255, 255, 255))
+       text = font2.render("Score: " + str(score), 1, (255, 255, 255))
        window.blit(text, (10, 20))
  
-       text_lose = font2.render("Пропущено: " + str(lost), 1, (255, 255, 255))
+       text_lose = font2.render("Lost: " + str(lost), 1, (255, 255, 255))
        window.blit(text_lose, (10, 50))
  
        display.update()
