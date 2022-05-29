@@ -22,7 +22,7 @@ img_enemy = "ufo.png" #враг
 score = 0 #сбито кораблей
 goal = 10 #столько кораблей нужно сбить для победы
 lost = 0 #пропущено кораблей
-max_lost = 30000 #проиграли, если пропустили столько
+max_lost = 3 #проиграли, если пропустили столько
 #класс-родитель для других спрайтов
 class GameSprite(sprite.Sprite):
  #конструктор класса
@@ -86,7 +86,7 @@ ship = Player(img_hero, 5, win_height - 100, 80, 100, 10)
 #создание группы спрайтов-врагов
 monsters = sprite.Group()
 for i in range(1, 6):
-   monster = Enemy(img_enemy, randint(80, win_width - 80), -40, 80, 50, 50)
+   monster = Enemy(img_enemy, randint(80, win_width - 80), -40, 80, 50, randint(1, 5))
    monsters.add(monster)
 bullets = sprite.Group()
 #переменная "игра закончилась": как только там True, в основном цикле перестают работать спрайты
