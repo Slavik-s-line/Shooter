@@ -1,3 +1,3 @@
 # Shooter
 
-![image](https://user-images.githubusercontent.com/78733510/170876500-0ab59b8b-425e-48ae-ae93-6b5a04f41d37.png)
+![image](https://user-images.githubusercontent.com/78733510/170876661-79c17483-4214-4a68-9c2e-d7eb46d6b7c8.png)
